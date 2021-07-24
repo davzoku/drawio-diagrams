@@ -1,0 +1,66 @@
+<mxfile>
+    <diagram id="rhjfIUtidsi4s9bZEDLa" name="Page-1">
+        <mxGraphModel dx="706" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Has a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="12">
+                    <mxGeometry x="0.1554" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Message" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="210" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="SmsMessage" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="300" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="EmailMessage" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="300" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="280" y="300" as="sourcePoint"/>
+                        <mxPoint x="440" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="280" y="300" as="sourcePoint"/>
+                        <mxPoint x="440" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="MessageSender" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="210" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="SmsMessageSender" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="300" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.6;entryY=1.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8" target="7">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="125" y="310" as="sourcePoint"/>
+                        <mxPoint x="510" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="EmailMessageSender" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="300" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=block;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.658;entryY=1.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="10" target="7">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="555" y="310" as="sourcePoint"/>
+                        <mxPoint x="616" y="272.6" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="160" width="530" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Bridge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="160" width="40" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
